@@ -3,87 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Comic Reader Community</title>
+    <title>My Comic Reader Community | Open Source & Comics</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        .lang-section { display: none; transition: opacity 0.3s ease; }
+        .lang-section { display: none; opacity: 0; transition: opacity 0.4s ease; }
         .lang-section.active { display: block; opacity: 1; }
-        .btn-lang.active { background-color: white; color: #2563eb; font-weight: bold; }
+        .btn-lang.active { background-color: white; color: #2563eb; font-weight: bold; border-color: white; }
+        .patreon-color { background-color: #FF424D; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
 
-    <header class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-16 px-6 text-center shadow-xl">
+    <header class="bg-gradient-to-r from-blue-700 to-indigo-600 text-white py-16 px-6 text-center shadow-xl">
         <div class="max-w-4xl mx-auto">
+            <div class="mb-6 inline-block p-3 bg-white/10 rounded-full backdrop-blur-sm">
+                <i class="fa-solid fa-book-open text-4xl"></i>
+            </div>
             <h1 class="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-md">
-                My Comic Reader Community 📚💬
+                My Comic Reader Community
             </h1>
-            <p class="text-xl md:text-2xl opacity-90 font-light mb-8">
-                The official hub for feedback, support, and discussions.
+            <p class="text-xl md:text-2xl opacity-90 font-light mb-8 max-w-2xl mx-auto italic">
+                "A dev passionate about comics and free software, building tools for the community."
             </p>
             
-            <div class="flex flex-wrap justify-center gap-3">
-                <button onclick="showLang('en', this)" class="btn-lang active bg-white/20 hover:bg-white/40 px-5 py-2 rounded-full transition border border-white/30">English</button>
-                <button onclick="showLang('pt', this)" class="btn-lang bg-white/20 hover:bg-white/40 px-5 py-2 rounded-full transition border border-white/30">Português</button>
-                <button onclick="showLang('es', this)" class="btn-lang bg-white/20 hover:bg-white/40 px-5 py-2 rounded-full transition border border-white/30">Español</button>
-                <button onclick="showLang('fr', this)" class="btn-lang bg-white/20 hover:bg-white/40 px-5 py-2 rounded-full transition border border-white/30">Français</button>
-                <button onclick="showLang('de', this)" class="btn-lang bg-white/20 hover:bg-white/40 px-5 py-2 rounded-full transition border border-white/30">Deutsch</button>
-                <button onclick="showLang('zh', this)" class="btn-lang bg-white/20 hover:bg-white/40 px-5 py-2 rounded-full transition border border-white/30">中文</button>
-                <button onclick="showLang('ja', this)" class="btn-lang bg-white/20 hover:bg-white/40 px-5 py-2 rounded-full transition border border-white/30">日本語</button>
+            <div class="flex flex-wrap justify-center gap-3 mb-10">
+                <button onclick="showLang('en', this)" class="btn-lang active bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">English</button>
+                <button onclick="showLang('pt', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">Português</button>
+                <button onclick="showLang('es', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">Español</button>
+                <button onclick="showLang('fr', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">Français</button>
+                <button onclick="showLang('zh', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">中文</button>
+                <button onclick="showLang('ja', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">日本語</button>
             </div>
+
+            <a href="https://www.patreon.com/bernardbr" target="_blank" class="patreon-color text-white px-8 py-4 rounded-xl font-bold hover:scale-105 transition-transform shadow-2xl inline-flex items-center gap-3 border border-white/20">
+                <i class="fa-brands fa-patreon text-2xl"></i>
+                <span>SUPPORT ON PATREON</span>
+            </a>
         </div>
     </header>
 
     <main class="max-w-4xl mx-auto my-12 px-6">
         
-        <div class="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200">
+        <div class="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-slate-200">
             
             <section id="en" class="lang-section active">
-                <h2 class="text-3xl font-bold text-blue-600 mb-6">Welcome!</h2>
-                <p class="text-lg text-slate-600 mb-8">This is a dedicated space for users and contributors to collaborate. Since <strong>my-comic-reader</strong> is free, your feedback is what drives our development.</p>
+                <h2 class="text-3xl font-bold text-blue-600 mb-6">Welcome, Reader!</h2>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                    I'm <strong>Bernardo</strong>, a developer who loves the world of comics and believes in the power of free, open-source software. 
+                    This space was created so we can build the best reading experience together.
+                </p>
                 <div class="grid md:grid-cols-2 gap-6">
-                    <a href="https://github.com/bernardbr/my-comic-reader-community/issues" class="group p-6 border-2 border-dashed border-red-100 rounded-xl hover:border-red-400 hover:bg-red-50 transition">
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/issues" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-red-400 hover:bg-red-50 transition-all">
                         <i class="fa-solid fa-bug text-3xl text-red-500 mb-4"></i>
-                        <h3 class="text-xl font-bold text-red-600">Report Bugs</h3>
-                        <p class="text-slate-500">Found a glitch? Let us know so we can fix it.</p>
+                        <h3 class="text-xl font-bold text-slate-800">Report Bugs</h3>
+                        <p class="text-slate-500">Found a glitch? Help me fix it by opening an issue.</p>
                     </a>
-                    <a href="https://github.com/bernardbr/my-comic-reader-community/discussions" class="group p-6 border-2 border-dashed border-blue-100 rounded-xl hover:border-blue-400 hover:bg-blue-50 transition">
-                        <i class="fa-solid fa-comments text-3xl text-blue-500 mb-4"></i>
-                        <h3 class="text-xl font-bold text-blue-600">Discussions</h3>
-                        <p class="text-slate-500">Feature requests or general community chat.</p>
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/discussions" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-blue-400 hover:bg-blue-50 transition-all">
+                        <i class="fa-solid fa-lightbulb text-3xl text-yellow-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">Suggestions</h3>
+                        <p class="text-slate-500">Have a great idea? Let's discuss new features.</p>
                     </a>
                 </div>
             </section>
 
             <section id="pt" class="lang-section">
-                <h2 class="text-3xl font-bold text-blue-600 mb-6">Bem-vindo!</h2>
-                <p class="text-lg text-slate-600 mb-8">Este é o espaço oficial para usuários e colaboradores. Como o sistema é gratuito, seu feedback é essencial.</p>
+                <h2 class="text-3xl font-bold text-blue-600 mb-6">Olá, Leitor!</h2>
+                <p class="text-lg text-slate-600 mb-8">
+                    Eu sou o <strong>Bernardo</strong>, um desenvolvedor apaixonado por quadrinhos e por software livre. 
+                    Este espaço foi criado para que possamos construir a melhor experiência de leitura juntos.
+                </p>
                 <div class="grid md:grid-cols-2 gap-6">
-                    <a href="..." class="p-6 border-2 border-dashed border-red-100 rounded-xl hover:bg-red-50 transition">
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/issues" class="p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:bg-red-50 transition-all">
                         <i class="fa-solid fa-bug text-3xl text-red-500 mb-4"></i>
-                        <h3 class="text-xl font-bold text-red-600">Relatar Bugs</h3>
-                        <p>Encontrou um erro? Reporte aqui com detalhes.</p>
+                        <h3 class="text-xl font-bold">Relatar Bugs</h3>
+                        <p class="text-slate-500">Algo não funcionou? Me avise para que eu possa consertar.</p>
                     </a>
-                    <a href="..." class="p-6 border-2 border-dashed border-blue-100 rounded-xl hover:bg-blue-50 transition">
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/discussions" class="p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:bg-blue-50 transition-all">
                         <i class="fa-solid fa-comments text-3xl text-blue-500 mb-4"></i>
-                        <h3 class="text-xl font-bold text-blue-600">Discussões</h3>
-                        <p>Sugira recursos ou tire dúvidas com a comunidade.</p>
+                        <h3 class="text-xl font-bold">Discussões</h3>
+                        <p class="text-slate-500">Sugira novos recursos ou tire suas dúvidas aqui.</p>
                     </a>
                 </div>
             </section>
 
             <section id="es" class="lang-section">
-                <h2 class="text-3xl font-bold text-blue-600 mb-6">¡Bienvenido!</h2>
-                <p class="text-lg text-slate-600 mb-8">Espacio dedicado para colaborar. Como la herramienta es gratuita, tu feedback impulsa el desarrollo.</p>
+                <h2 class="text-3xl font-bold text-blue-600 mb-6">¡Hola, Lector!</h2>
+                <p class="text-lg text-slate-600 mb-8">Soy un desarrollador apasionado por los cómics y el software libre. Tu feedback es lo que mantiene este proyecto vivo.</p>
                 <div class="grid md:grid-cols-2 gap-6">
-                    <a href="..." class="p-6 border-2 border-dashed border-red-100 rounded-xl hover:bg-red-50 transition">
-                        <i class="fa-solid fa-bug text-3xl text-red-500 mb-4"></i>
+                    <a href="..." class="p-6 border-2 border-dashed border-slate-100 rounded-2xl">
                         <h3 class="text-xl font-bold text-red-600">Reportar Errores</h3>
-                        <p>¿Algo no funciona? Infórmanos para solucionarlo.</p>
+                        <p>¿Encontraste un fallo? Infórmanos para solucionarlo.</p>
                     </a>
-                    <a href="..." class="p-6 border-2 border-dashed border-blue-100 rounded-xl hover:bg-blue-50 transition">
-                        <i class="fa-solid fa-comments text-3xl text-blue-500 mb-4"></i>
+                    <a href="..." class="p-6 border-2 border-dashed border-slate-100 rounded-2xl">
                         <h3 class="text-xl font-bold text-blue-600">Discusiones</h3>
                         <p>Propón nuevas funciones o habla con otros lectores.</p>
                     </a>
@@ -92,43 +104,28 @@
 
             <section id="fr" class="lang-section">
                 <h2 class="text-3xl font-bold text-blue-600 mb-6">Bienvenue !</h2>
-                <p class="text-lg text-slate-600 mb-8">Un espace pour collaborer. Vos retours sont le moteur de l'évolution du projet.</p>
+                <p class="text-lg text-slate-600 mb-8">Développeur passionné par les BD et le logiciel libre. Aidons-nous à améliorer ce système !</p>
                 <div class="grid md:grid-cols-2 gap-6">
-                    <a href="..." class="p-6 border-2 border-dashed border-red-100 rounded-xl">
+                    <a href="..." class="p-6 border-2 border-dashed border-slate-100 rounded-2xl">
                         <h3 class="text-xl font-bold text-red-600">Signaler un Bug</h3>
-                        <p>Un problème ? Signalez-le ici avec des captures d'écran.</p>
+                        <p>Un problème ? Signalez-le ici avec des détails.</p>
                     </a>
-                    <a href="..." class="p-6 border-2 border-dashed border-blue-100 rounded-xl">
+                    <a href="..." class="p-6 border-2 border-dashed border-slate-100 rounded-2xl">
                         <h3 class="text-xl font-bold text-blue-600">Discussions</h3>
                         <p>Partagez vos idées pour améliorer le lecteur.</p>
                     </a>
                 </div>
             </section>
 
-            <section id="de" class="lang-section">
-                <h2 class="text-3xl font-bold text-blue-600 mb-6">Willkommen!</h2>
-                <p class="text-lg text-slate-600 mb-8">Gemeinsam das System verbessern. Da das Tool kostenlos ist, zählt Ihr Feedback.</p>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <a href="..." class="p-6 border-2 border-dashed border-red-100 rounded-xl">
-                        <h3 class="text-xl font-bold text-red-600">Fehler melden</h3>
-                        <p>Etwas funktioniert nicht? Sagen Sie uns Bescheid.</p>
-                    </a>
-                    <a href="..." class="p-6 border-2 border-dashed border-blue-100 rounded-xl">
-                        <h3 class="text-xl font-bold text-blue-600">Diskussionen</h3>
-                        <p>Fragen oder Vorschläge für neue Funktionen.</p>
-                    </a>
-                </div>
-            </section>
-
             <section id="zh" class="lang-section">
                 <h2 class="text-3xl font-bold text-blue-600 mb-6">欢迎！</h2>
-                <p class="text-lg text-slate-600 mb-8">供用户和贡献者协作的空间。您的反馈是我们发展的动力。</p>
+                <p class="text-lg text-slate-600 mb-8">我是 Bernardo，一位热爱漫画和开源软件的开发者。您的反馈是我们发展的动力。</p>
                 <div class="grid md:grid-cols-2 gap-6">
-                    <a href="..." class="p-6 border-2 border-dashed border-red-100 rounded-xl">
+                    <a href="..." class="p-6 border-2 border-dashed border-slate-100 rounded-2xl">
                         <h3 class="text-xl font-bold text-red-600">报告缺陷</h3>
                         <p>发现漏洞了？请在此提交 Issue。</p>
                     </a>
-                    <a href="..." class="p-6 border-2 border-dashed border-blue-100 rounded-xl">
+                    <a href="..." class="p-6 border-2 border-dashed border-slate-100 rounded-2xl">
                         <h3 class="text-xl font-bold text-blue-600">社区讨论</h3>
                         <p>分享您的创意或参与路线图讨论。</p>
                     </a>
@@ -137,14 +134,14 @@
 
             <section id="ja" class="lang-section">
                 <h2 class="text-3xl font-bold text-blue-600 mb-6">ようこそ！</h2>
-                <p class="text-lg text-slate-600 mb-8">システムをより良くするためのスペース。皆様のフィードバックが原動力です。</p>
+                <p class="text-lg text-slate-600 mb-8">漫画とオープンソースソフトウェアを愛する開発者です。皆様のフィードバックが原動力です。</p>
                 <div class="grid md:grid-cols-2 gap-6">
-                    <a href="..." class="p-6 border-2 border-dashed border-red-100 rounded-xl">
+                    <a href="..." class="p-6 border-2 border-dashed border-slate-100 rounded-2xl">
                         <h3 class="text-xl font-bold text-red-600">バグ報告</h3>
                         <p>不具合を見つけましたか？こちらから教えてください。</p>
                     </a>
-                    <a href="..." class="p-6 border-2 border-dashed border-blue-100 rounded-xl">
-                        <h3 class="text-xl font-bold text-blue-600">ディスカッション</h3>
+                    <a href="..." class="p-6 border-2 border-dashed border-slate-100 rounded-2xl">
+                        <h3 class="text-xl font-bold text-blue-600">掲示板</h3>
                         <p>新機能のリクエストやコミュニティとの交流。</p>
                     </a>
                 </div>
@@ -153,22 +150,19 @@
         </div>
 
         <footer class="mt-12 text-center text-slate-400">
-            <p class="mb-2 italic">Please be respectful and kind to others. We love comics and open-source!</p>
-            <p>Created with ❤️ by <strong>My Comic Reader Team</strong></p>
-            <div class="mt-4 flex justify-center gap-4">
-                <a href="https://github.com/bernardbr/my-comic-reader-community" class="text-blue-500 hover:underline"><i class="fa-brands fa-github"></i> Back to GitHub</a>
+            <p class="mb-4">Created with ❤️ by <strong>Bernardo Esbérard</strong></p>
+            <div class="flex justify-center gap-6 text-2xl">
+                <a href="https://github.com/bernardbr" target="_blank" class="hover:text-blue-500 transition-colors"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.patreon.com/bernardbr" target="_blank" class="hover:text-[#FF424D] transition-colors"><i class="fa-brands fa-patreon"></i></a>
             </div>
         </footer>
     </main>
 
     <script>
         function showLang(langId, btn) {
-            // Hide all sections
             document.querySelectorAll('.lang-section').forEach(s => s.classList.remove('active'));
-            // Show selected section
             document.getElementById(langId).classList.add('active');
             
-            // Update active button styles
             document.querySelectorAll('.btn-lang').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
         }
