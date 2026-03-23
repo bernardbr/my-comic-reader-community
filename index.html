@@ -28,10 +28,13 @@
             </p>
             
             <div class="flex flex-wrap justify-center gap-3 mb-10">
-                <button onclick="showLang('en', this)" class="btn-lang active bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">English</button>
-                <button onclick="showLang('pt', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">Português</button>
+                <button onclick="showLang('en', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">English</button>
+                <button onclick="showLang('pt-br', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">Português</button>
                 <button onclick="showLang('es', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">Español</button>
                 <button onclick="showLang('fr', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">Français</button>
+                <button onclick="showLang('de', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">Deutsch</button>
+                <button onclick="showLang('zh', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">中文</button>
+                <button onclick="showLang('ja', this)" class="btn-lang bg-white/10 hover:bg-white/30 px-5 py-2 rounded-full transition border border-white/20">日本語</button>
             </div>
 
             <a href="https://github.com/sponsors/bernardbr" target="_blank" class="github-sponsor-color text-white px-8 py-4 rounded-xl font-bold hover:scale-105 transition-transform shadow-2xl inline-flex items-center gap-3 border border-pink-400/50">
@@ -45,7 +48,7 @@
         
         <div class="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-slate-200">
             
-            <section id="en" class="lang-section active text-center">
+            <section id="en" class="lang-section text-center">
                 <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-2 border-pink-100 pb-2 inline-block">Welcome, Reader!</h2>
                 <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
                     I'm <strong>Bernardo</strong>, a developer who loves the world of comics and believes in the power of free, ad-free software. 
@@ -65,7 +68,7 @@
                 </div>
             </section>
 
-            <section id="pt" class="lang-section text-center">
+            <section id="pt-br" class="lang-section text-center">
                 <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-2 border-pink-100 pb-2 inline-block">Olá, Leitor!</h2>
                 <p class="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
                     Eu sou o <strong>Bernardo</strong>, um desenvolvedor apaixonado por quadrinhos e por software gratuito e sem anúncios. 
@@ -81,6 +84,106 @@
                         <i class="fa-solid fa-comments text-3xl text-blue-500 mb-4"></i>
                         <h3 class="text-xl font-bold">Discussões</h3>
                         <p class="text-slate-500 italic text-sm">Sugira novos recursos ou tire suas dúvidas aqui.</p>
+                    </a>
+                </div>
+            </section>
+
+            <section id="es" class="lang-section text-center">
+                <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-2 border-pink-100 pb-2 inline-block">¡Hola, Lector!</h2>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
+                    Soy <strong>Bernardo</strong>, un desarrollador apasionado por los cómics y el software gratuito y sin anuncios. 
+                    Este espacio fue creado para que podamos construir juntos la mejor experiencia de lectura.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/issues" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-red-400 hover:bg-red-50 transition-all">
+                        <i class="fa-solid fa-bug text-3xl text-red-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">Reportar Errores y Problemas</h3>
+                        <p class="text-slate-500 italic text-sm">¿Encontraste un fallo? ¿Algo no funciona como se esperaba?</p>
+                    </a>
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/discussions" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-blue-400 hover:bg-blue-50 transition-all">
+                        <i class="fa-solid fa-lightbulb text-3xl text-yellow-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">Solicitudes de Funciones y Discusiones</h3>
+                        <p class="text-slate-500 italic text-sm">¿Tienes una gran idea para una nueva función? ¿Quieres charlar sobre la hoja de ruta?</p>
+                    </a>
+                </div>
+            </section>
+
+            <section id="fr" class="lang-section text-center">
+                <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-2 border-pink-100 pb-2 inline-block">Bonjour, Lecteur !</h2>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
+                    Je suis <strong>Bernardo</strong>, un développeur passionné par l'univers de la bande dessinée et par les logiciels gratuits et sans publicité. 
+                    Cet espace a été créé pour que nous puissions construire ensemble la meilleure expérience de lecture.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/issues" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-red-400 hover:bg-red-50 transition-all">
+                        <i class="fa-solid fa-bug text-3xl text-red-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">Signaler des Bugs et Problèmes</h3>
+                        <p class="text-slate-500 italic text-sm">Vous avez trouvé un bug ? Quelque chose ne fonctionne pas comme prévu ?</p>
+                    </a>
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/discussions" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-blue-400 hover:bg-blue-50 transition-all">
+                        <i class="fa-solid fa-lightbulb text-3xl text-yellow-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">Suggestions de Fonctionnalités et Discussions</h3>
+                        <p class="text-slate-500 italic text-sm">Vous avez une excellente idée pour une nouvelle fonctionnalité ? Vous voulez discuter de la feuille de route ?</p>
+                    </a>
+                </div>
+            </section>
+
+            <section id="de" class="lang-section text-center">
+                <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-2 border-pink-100 pb-2 inline-block">Willkommen, Leser!</h2>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
+                    Ich bin <strong>Bernardo</strong>, ein Entwickler, der die Welt der Comics liebt und an die Kraft freier, werbefreier Software glaubt. 
+                    Dieser Bereich wurde geschaffen, damit wir gemeinsam das beste Leseerlebnis aufbauen können.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/issues" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-red-400 hover:bg-red-50 transition-all">
+                        <i class="fa-solid fa-bug text-3xl text-red-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">Fehler melden</h3>
+                        <p class="text-slate-500 italic text-sm">Einen Fehler gefunden? Hilf mir, ihn zu beheben, indem du ein Issue eröffnest.</p>
+                    </a>
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/discussions" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-blue-400 hover:bg-blue-50 transition-all">
+                        <i class="fa-solid fa-lightbulb text-3xl text-yellow-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">Vorschläge</h3>
+                        <p class="text-slate-500 italic text-sm">Hast du eine großartige Idee? Lass uns neue Funktionen besprechen.</p>
+                    </a>
+                </div>
+            </section>
+
+            <section id="zh" class="lang-section text-center">
+                <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-2 border-pink-100 pb-2 inline-block">欢迎，读者！</h2>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
+                    我是 <strong>Bernardo</strong>，一名热爱漫画世界并相信免费、无广告软件力量的开发者。
+                    创建此空间是为了让我们能够共同打造最佳阅读体验。
+                </p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/issues" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-red-400 hover:bg-red-50 transition-all">
+                        <i class="fa-solid fa-bug text-3xl text-red-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">报告错误</h3>
+                        <p class="text-slate-500 italic text-sm">发现故障？通过提交一个议题来帮助我修复它。</p>
+                    </a>
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/discussions" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-blue-400 hover:bg-blue-50 transition-all">
+                        <i class="fa-solid fa-lightbulb text-3xl text-yellow-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">建议</h3>
+                        <p class="text-slate-500 italic text-sm">有好的想法吗？我们来讨论新功能。</p>
+                    </a>
+                </div>
+            </section>
+
+            <section id="ja" class="lang-section text-center">
+                <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-2 border-pink-100 pb-2 inline-block">読者の皆様、ようこそ！</h2>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
+                    私は<strong>ベルナルド</strong>です。漫画の世界を愛し、無料で広告なしのソフトウェアの力を信じる開発者です。
+                    この場所は、最高の読書体験を共に築き上げるために作られました。
+                </p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/issues" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-red-400 hover:bg-red-50 transition-all">
+                        <i class="fa-solid fa-bug text-3xl text-red-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">バグを報告</h3>
+                        <p class="text-slate-500 italic text-sm">不具合を見つけましたか？イシューを起票して、修正にご協力ください。</p>
+                    </a>
+                    <a href="https://github.com/bernardbr/my-comic-reader-community/discussions" class="group p-6 border-2 border-dashed border-slate-100 rounded-2xl hover:border-blue-400 hover:bg-blue-50 transition-all">
+                        <i class="fa-solid fa-lightbulb text-3xl text-yellow-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800">ご提案</h3>
+                        <p class="text-slate-500 italic text-sm">素晴らしいアイデアがありますか？新しい機能について話し合いましょう。</p>
                     </a>
                 </div>
             </section>
@@ -106,6 +209,33 @@
             document.querySelectorAll('.btn-lang').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
         }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const userLang = navigator.language || navigator.userLanguage;
+            const supportedLangs = Array.from(document.querySelectorAll('.btn-lang')).map(btn => btn.getAttribute('onclick').match(/'(.*?)'/)[1]);
+            
+            let langToSet = 'en'; // Default to English
+
+            // 1. Exact match (e.g., "pt-br")
+            if (supportedLangs.includes(userLang.toLowerCase())) {
+                langToSet = userLang.toLowerCase();
+            } 
+            // 2. Partial match (e.g., "pt" from "pt-BR")
+            else {
+                const baseLang = userLang.split('-')[0];
+                if (supportedLangs.includes(baseLang)) {
+                    langToSet = baseLang;
+                }
+            }
+            
+            const btnToClick = document.querySelector(`[onclick="showLang('${langToSet}', this)"]`);
+            if (btnToClick) {
+                showLang(langToSet, btnToClick);
+            } else {
+                // Fallback to English if something goes wrong
+                showLang('en', document.querySelector('[onclick="showLang(\'en\', this)"]'));
+            }
+        });
     </script>
 </body>
 </html>
