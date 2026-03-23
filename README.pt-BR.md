@@ -2,13 +2,13 @@
 
 **Idiomas:** [English](README.md) | [Português](README.pt-BR.md) | [Español](README.es.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [中文](README.zh.md) | [日本語](README.ja.md)
 
-*"Um dev apaixonado por quadrinhos e software livre, criando ferramentas para a comunidade."*
+*"Um dev apaixonado por quadrinhos e software gratuito e sem anúncios, criando ferramentas para a comunidade."*
 
 ---
 
 ## Olá, Leitor!
 
-Eu sou o **Bernardo**, um desenvolvedor apaixonado por quadrinhos e por software livre. Este espaço foi criado para que possamos construir a melhor experiência de leitura juntos.
+Eu sou o **Bernardo**, um desenvolvedor apaixonado por quadrinhos e por software gratuito e sem anúncios. Este espaço foi criado para que possamos construir a melhor experiência de leitura juntos.
 
 Este é um espaço dedicado para usuários, entusiastas e colaboradores colaborarem, compartilharem ideias e ajudarem a melhorar o sistema. Como a ferramenta principal é gratuita para todos, seu feedback é o que impulsiona nosso desenvolvimento.
 
@@ -34,7 +34,7 @@ Tem uma ótima ideia para um novo recurso? Quer conversar sobre o roteiro de des
 ---
 
 ## 📜 Código de Conduta
-Por favor, seja respeitoso e gentil com os outros. Estamos todos aqui porque amamos quadrinhos e software de código aberto!
+Por favor, seja respeitoso e gentil com os outros. Estamos todos aqui porque amamos quadrinhos e software gratuito!
 
 ---
 *Criado com ❤️ pela equipe My Comic Reader.*

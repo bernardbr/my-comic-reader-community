@@ -2,13 +2,13 @@
 
 **Sprachen:** [English](README.md) | [Português](README.pt-BR.md) | [Español](README.es.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [中文](README.zh.md) | [日本語](README.ja.md)
 
-*"Ein Entwickler, der Comics und freie Software liebt und Tools für die Community entwickelt."*
+*"Ein Entwickler, der Comics und kostenlose, werbefreie Software liebt und Tools für die Community entwickelt."*
 
 ---
 
 ## Willkommen, Leser!
 
-Ich bin **Bernardo**, ein Entwickler, der die Welt der Comics liebt und an die Kraft von freier Open-Source-Software glaubt. Dieser Raum wurde geschaffen, damit wir gemeinsam das beste Leseerlebnis aufbauen können.
+Ich bin **Bernardo**, ein Entwickler, der die Welt der Comics liebt und an die Kraft von kostenloser, werbefreier Software glaubt. Dieser Raum wurde geschaffen, damit wir gemeinsam das beste Leseerlebnis aufbauen können.
 
 Dies ist ein spezieller Ort für Nutzer, Enthusiasten und Mitwirkende, um zusammenzuarbeiten, Ideen auszutauschen und das System zu verbessern. Da das Haupt-Tool für alle kostenlos ist, treibt Ihr Feedback unsere Entwicklung voran.
 
@@ -34,7 +34,7 @@ Haben Sie eine tolle Idee für eine neue Funktion? Möchten Sie über die Roadma
 ---
 
 ## 📜 Verhaltenskodex
-Bitte seien Sie respektvoll und freundlich zu anderen. Wir sind alle hier, weil wir Comics und Open-Source-Software lieben!
+Bitte seien Sie respektvoll und freundlich zu anderen. Wir sind alle hier, weil wir Comics und kostenlose Software lieben!
 
 ---
 *Erstellt mit ❤️ vom My Comic Reader Team.*

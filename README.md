@@ -2,13 +2,13 @@
 
 **Languages:** [English](README.md) | [Português](README.pt-BR.md) | [Español](README.es.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [中文](README.zh.md) | [日本語](README.ja.md)
 
-*"A dev passionate about comics and free software, building tools for the community."*
+*"A dev passionate about comics and free, ad-free software, building tools for the community."*
 
 ---
 
 ## Welcome, Reader!
 
-I'm **Bernardo**, a developer who loves the world of comics and believes in the power of free, open-source software. This space was created so we can build the best reading experience together.
+I'm **Bernardo**, a developer who loves the world of comics and believes in the power of free, ad-free software. This space was created so we can build the best reading experience together.
 
 This is a dedicated space for users, enthusiasts, and contributors to collaborate, share ideas, and help improve the system. Since the main tool is free for everyone, your feedback is what drives our development.
 
@@ -34,7 +34,7 @@ Have a great idea for a new feature? Want to chat about the roadmap?
 ---
 
 ## 📜 Code of Conduct
-Please be respectful and kind to others. We are all here because we love comics and open-source software!
+Please be respectful and kind to others. We are all here because we love comics and free software!
 
 ---
 *Created with ❤️ by the My Comic Reader team.*

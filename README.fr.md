@@ -2,13 +2,13 @@
 
 **Langues :** [English](README.md) | [Português](README.pt-BR.md) | [Español](README.es.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [中文](README.zh.md) | [日本語](README.ja.md)
 
-*"Un dev passionné de BD et de logiciels libres, qui crée des outils pour la communauté."*
+*"Un dev passionné de BD et de logiciels gratuits et sans publicité, qui crée des outils pour la communauté."*
 
 ---
 
 ## Bonjour, Lecteur !
 
-Je suis **Bernardo**, un développeur passionné par l'univers de la bande dessinée et par les logiciels libres. Cet espace a été créé pour que nous puissions construire ensemble la meilleure expérience de lecture.
+Je suis **Bernardo**, un développeur passionné par l'univers de la bande dessinée et par les logiciels gratuits et sans publicité. Cet espace a été créé pour que nous puissions construire ensemble la meilleure expérience de lecture.
 
 C'est un espace dédié aux utilisateurs, passionnés et contributeurs pour collaborer, partager des idées et aider à améliorer le système. Comme l'outil principal est gratuit pour tous, vos retours sont le moteur de notre développement.
 
@@ -34,7 +34,7 @@ Vous avez une excellente idée pour une nouvelle fonctionnalité ? Vous voulez d
 ---
 
 ## 📜 Code de Conduite
-Merci d'être respectueux et bienveillant envers les autres. Nous sommes tous ici parce que nous aimons les bandes dessinées et les logiciels libres !
+Merci d'être respectueux et bienveillant envers les autres. Nous sommes tous ici parce que nous aimons les bandes dessinées et les logiciels gratuits !
 
 ---
 *Créé avec ❤️ par l'équipe My Comic Reader.*
