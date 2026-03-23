@@ -1,8 +1,18 @@
 # My Comic Reader 社区 📚💬
 
-欢迎来到 **my-comic-reader** 官方社区仓库！
+**语言:** [English](README.md) | [Português](README.pt-BR.md) | [Español](README.es.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [中文](README.zh.md) | [日本語](README.ja.md)
+
+*“一个热爱漫画和自由软件的开发者，致力于为社区构建工具。”*
+
+---
+
+## 欢迎，读者！
+
+我是 **Bernardo**，一名热爱漫画世界并坚信免费开源软件力量的开发者。创建这个空间是为了让我们能一起打造最佳的阅读体验。
 
 这是一个专门为用户、爱好者和贡献者提供的空间，用于协作、分享想法并帮助改进系统。由于该主工具对所有人免费，您的反馈是我们发展的动力。
+
+💖 **[成为 GITHUB 赞助者](https://github.com/sponsors/bernardbr)**
 
 ---
 

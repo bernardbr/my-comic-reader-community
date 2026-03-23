@@ -1,8 +1,18 @@
 # My Comic Reader Community 📚💬
 
-Bem-vindo ao repositório oficial da comunidade do **my-comic-reader**! 
+**Idiomas:** [English](README.md) | [Português](README.pt-BR.md) | [Español](README.es.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [中文](README.zh.md) | [日本語](README.ja.md)
+
+*"Um dev apaixonado por quadrinhos e software livre, criando ferramentas para a comunidade."*
+
+---
+
+## Olá, Leitor!
+
+Eu sou o **Bernardo**, um desenvolvedor apaixonado por quadrinhos e por software livre. Este espaço foi criado para que possamos construir a melhor experiência de leitura juntos.
 
 Este é um espaço dedicado para usuários, entusiastas e colaboradores colaborarem, compartilharem ideias e ajudarem a melhorar o sistema. Como a ferramenta principal é gratuita para todos, seu feedback é o que impulsiona nosso desenvolvimento.
+
+💖 **[APOIE O PROJETO NO GITHUB SPONSORS](https://github.com/sponsors/bernardbr)**
 
 ---
 

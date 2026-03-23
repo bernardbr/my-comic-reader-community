@@ -1,8 +1,18 @@
 # My Comic Reader Community 📚💬
 
-Welcome to the official community repository for **my-comic-reader**! 
+**Languages:** [English](README.md) | [Português](README.pt-BR.md) | [Español](README.es.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [中文](README.zh.md) | [日本語](README.ja.md)
+
+*"A dev passionate about comics and free software, building tools for the community."*
+
+---
+
+## Welcome, Reader!
+
+I'm **Bernardo**, a developer who loves the world of comics and believes in the power of free, open-source software. This space was created so we can build the best reading experience together.
 
 This is a dedicated space for users, enthusiasts, and contributors to collaborate, share ideas, and help improve the system. Since the main tool is free for everyone, your feedback is what drives our development.
+
+💖 **[BECOME A GITHUB SPONSOR](https://github.com/sponsors/bernardbr)**
 
 ---
 
